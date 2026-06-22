@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*id and class type selectors*/
+html,body{
+    width: 100;
+    height: 100;
+}
+
+
+/* class type selectors*/
+.demo{
+    color: aquamarine;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*id type selectors*/
+#demo01{
+    color: rebeccapurple;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Grouping type selectors*/
+h1,h2,h3{
+    color: chartreuse;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container{
+    height: max-content;
+    width: max-content;
+    background-color: brown;
+}
